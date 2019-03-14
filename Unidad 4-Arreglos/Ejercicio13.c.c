@@ -58,3 +58,25 @@ int tamañoCadena(char cad[SIZE]){
     return tamReal;
 }
 
+/*
+QA: Amilcar A. Ramirez Patron
+void leerCadenas()
+    Lee correctamente las matrices
+    
+void sumarCadenas()
+Entrada: cad 1: 09124
+         cad 2: 98765
+Salida: 917889
+    Funciona
+    
+int tamañoCadena()
+Entrada: 256 (tamaño del arreglo)
+Salida: 1
+    Funciona, sin embargo no es claro
+    
+int main
+El programa no compila debido al uso de ñ en la variable tamañoCadena = 0
+Entrada: cad1: 09124
+         cad2: 98765
+Salida: 917889
+El codigo funciona.
