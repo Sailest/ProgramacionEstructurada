@@ -19,3 +19,5 @@ func main() {
 	fmt.Println("Veces que se repite: ")
 	fmt.Println(strings.Count(inputParrafo, inputCadena))
 }
+
+regfd
