@@ -66,3 +66,29 @@ int busqueda(char cadena[], char parrafo[]){
   }
   return encontado;
 }
+
+/*
+QA: Amílcar
+
+int busqueda()
+Entrada cadena: muy
+	parrafo : algo muy importante algo muy importante algo muy importante algo muy importante algo muy importante
+salida: 5
+Funciona bien.
+
+int getSize()
+Entrada: 300 (en los tamaños)
+salida : 300 (del tamaño del arreglo)
+Funciona bien.
+
+int main
+No funciona completo, sin_titulo.c:36:21: error: assignment makes integer from pointer without a cast [-Wint-conversion] que se arregla
+cambiando el "" por ' '.
+Entrada: cadena : sr
+	parrafo: rsfssr
+Salida: encotrada 1 vez
+Entrada: cadena: muy
+	parrafo: algo muy importante algo muy importante algo muy importante algo muy importante algo muy importante
+Salida: 0
+Funciona de ciertas formas, pero no para cualquie parrafo
+*/
